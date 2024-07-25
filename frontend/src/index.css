@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.profile-card {
+	padding: 20px;
+	border-radius: 8px;
+	width: 300px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-card h2 {
+	margin-top: 0;
+	font-size: 24px;
+	color: #333;
+}
+.profile-card p {
+	margin: 10px 0;
+	color: #555;
+}
+.profile_details{
+	text-align: left;
+	display: grid;
+	gap: 20px;
+  }
